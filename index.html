@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo - Seu Nome</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+</head>
+<body>
+
+  <header>
+    <h1>Seu Nome</h1>
+    <p>Engenheira Front-End | Desenvolvedora Web</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a> |
+    <a href="#contato">Contato</a> |
+    <a href="#ods">ODS</a> |
+    <a href="mailto:seuemail@exemplo.com">Email</a>
+  </nav>
+
+  <main>
+
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <figure>
+        <img src="figs/perfil.jpg" alt="Foto de Perfil" width="200">
+        <figcaption>Essa sou eu :)</figcaption>
+      </figure>
+      <p>Sou apaixonada por tecnologia e gosto de criar experiências incríveis para a web!</p>
+    </section>
+
+    <section>
+      <h2>Minhas Habilidades</h2>
+      <ul>
+        <li><i class="material-icons-outlined">check</i> HTML5</li>
+        <li><i class="material-icons-outlined">check</i> CSS3</li>
+        <li><i class="material-icons-outlined">check</i> JavaScript</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experiência Profissional</h2>
+      <ol>
+        <li>Desenvolvedora Front-End - Empresa X</li>
+        <li>Estagiária em Web Design - Empresa Y</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Glossário</h2>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação usada na construção de páginas web.</dd>
+        <dt>CSS</dt>
+        <dd>Folhas de estilo que definem o layout da página.</dd>
+      </dl>
+    </section>
+
+    <section id="ods">
+      <h2>ODS que pretendo contribuir</h2>
+      <figure>
+        <img src="figs/ods4.png" alt="ODS 4 - Educação de Qualidade" width="300">
+        <figcaption>ODS 4 - Educação de Qualidade</figcaption>
+      </figure>
+    </section>
+
+    <article>
+      <h2>Formulário de Contato</h2>
+      <form>
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" min="18" max="120" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required><br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <label>Conteúdo de interesse:</label><br>
+        <input type="radio" id="html" name="interesse" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="interesse" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="js" name="interesse" value="JavaScript" checked>
+        <label for="js">JavaScript</label><br><br>
+
+        <label for="opiniao">Deixe sua opinião:</label><br>
+        <textarea id="opiniao" name="opiniao" rows="5" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </article>
+
+  </main>
+
+  <footer>
+    <p><i class="material-icons-outlined">favorite</i> 2025 - Desenvolvido com amor <i class="material-icons-outlined">favorite</i></p>
+  </footer>
+
+</body>
+</html>
