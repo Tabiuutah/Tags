@@ -19,7 +19,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .linha p {
@@ -31,9 +31,8 @@ main {
 }
 
 .linha img {
-  width: 45%;
+  width: 50%;
   height: auto;
-  max-height: 180px; /* Limita a altura para ficar próxima ao parágrafo */
   border-radius: 6px;
   object-fit: cover;
 }
