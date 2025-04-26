@@ -5,41 +5,52 @@ body {
   }
   
   header img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 250px; /* altura retangular */
+    object-fit: cover;
   }
   
   main {
-    padding: 20px;
+    padding: 0;
+    margin: 0;
   }
   
   .conteudo {
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+    height: 100vh; /* altura total visível */
+    box-sizing: border-box;
   }
   
   .texto {
-    flex: 3;
+    width: 50%;
+    padding-right: 20px;
     text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .texto p {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
   }
   
   .imagens-laterais {
-    flex: 1;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
   }
   
   .imagens-laterais img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
+    border-radius: 5px;
+    flex: 1;
+    object-fit: cover;
   }
   
