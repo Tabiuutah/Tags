@@ -19,23 +19,23 @@ main {
 
 .linha {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 30px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .linha p {
-  width: 20%;
+  flex: 1;
   text-align: justify;
   font-size: 1.1em;
   line-height: 1.6em;
-  padding-right: 20px;
 }
 
 .linha img {
-  width: 20%;
-  height: auto;
+  width: 200px;              /* largura fixa menor */
+  height: auto;              /* altura proporcional */
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
